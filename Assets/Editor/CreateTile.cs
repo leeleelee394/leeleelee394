@@ -1,18 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEditor;
 
-public class CreateTile : MonoBehaviour
+public class CreateComponentExample
 {
-    // Start is called before the first frame update
-    void Start()
+    [MenuItem("Match3/Create Tile Prefabs")]
+    public void CreateCameraEditor()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        //Selection.activeGameObject = ObjectFactory.CreateGameObject("Camera", typeof(Camera));
     }
 }
