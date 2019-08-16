@@ -22,7 +22,7 @@ public class Tile : MonoBehaviour
 
     void OnMouseDown()
     {
-        Vector3 strength = new Vector3(0.1f, 0.1f);
+        Vector3 strength = new Vector3(0.1f, 0.1f, 0.1f);
         transform.DOPunchScale(strength, 1f);
     }
 
